@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2B680DCB19DFD99900DCF132 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B680DCA19DFD99900DCF132 /* main.cpp */; };
 		2B680DCD19DFD99900DCF132 /* DynamicMemory.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B680DCC19DFD99900DCF132 /* DynamicMemory.1 */; };
+		2B680DD719DFFCB400DCF132 /* diziislemleri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B680DD619DFFCB400DCF132 /* diziislemleri.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		2B680DC719DFD99900DCF132 /* DynamicMemory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicMemory; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B680DCA19DFD99900DCF132 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2B680DCC19DFD99900DCF132 /* DynamicMemory.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DynamicMemory.1; sourceTree = "<group>"; };
+		2B680DD319DFE3FC00DCF132 /* record.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = record.h; sourceTree = "<group>"; };
+		2B680DD519DFF5CD00DCF132 /* diziislemleri.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diziislemleri.h; sourceTree = "<group>"; };
+		2B680DD619DFFCB400DCF132 /* diziislemleri.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = diziislemleri.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				2B680DCA19DFD99900DCF132 /* main.cpp */,
+				2B680DD519DFF5CD00DCF132 /* diziislemleri.h */,
+				2B680DD619DFFCB400DCF132 /* diziislemleri.cpp */,
 				2B680DCC19DFD99900DCF132 /* DynamicMemory.1 */,
+				2B680DD319DFE3FC00DCF132 /* record.h */,
 			);
 			path = DynamicMemory;
 			sourceTree = "<group>";
@@ -117,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B680DD719DFFCB400DCF132 /* diziislemleri.cpp in Sources */,
 				2B680DCB19DFD99900DCF132 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
